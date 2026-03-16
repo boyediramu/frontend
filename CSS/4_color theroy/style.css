@@ -1,0 +1,65 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: px;
+    border: 1px solid;
+    padding: 20px;
+
+
+}
+
+.innercard {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#colorname {
+    background-color: red;
+
+}
+
+#hexa {
+    background-color: #347dae;
+}
+
+#rgb {
+    background-color: rgb(0, 255, 81);
+}
+
+#rgba {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#hsl {
+    background-color: hsl(341, 100%, 50%);
+}
+
+#hsla {
+    background-color: hsla(301, 100%, 50%, 0.5);
+}
+
+#lineargradient {
+    background: linear-gradient(red, yellow);
+}
+
+#repeatinglineargradient {
+    background: repeating-linear-gradient(red, yellow, green, blue);
+}
+
+h2 {
+    text-align: center;
+}

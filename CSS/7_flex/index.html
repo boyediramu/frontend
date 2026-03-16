@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fruitshop</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+        ul{
+            display: flex;
+            gap: 50px;
+            list-style: none;
+
+        }
+        .navbar ul a{
+            text-decoration: none;
+            color: white;
+        }
+        .main{
+            background-image: url(../../assests/fruitshop_bg.jpg);
+            height: 500px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .main button{
+            border: none;
+            width: 120px;
+            padding: 10px;
+            color: green;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .fruitcontent{
+            display: flex
+            
+        }
+        .cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            background-color: green;
+        }
+        .fruits{
+            border: 1px solid;
+            /* height: 10px; */
+            /* width: 10px; */
+        }
+      
+       
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>FRUIT SHOP</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Carriers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <h1>Fresh and Organic</h1>
+        
+        <button>order now</button>
+    </div>
+    <div class="fruitcontent">
+    <div class="fbasket">
+        <img src="../../assests/fbasket.png" alt="fruits">
+        </div>
+        <div class="fcontent">
+        <h1>Fresh Fruits</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus provident fugit esse deserunt veniam eligendi sed omnis eos, perspiciatis quos, assumenda debitis incidunt nemo consequuntur molestiae! Ullam accusantium harum sint dolores repellendus soluta recusandae odit doloremque ipsa quo neque asperiores, corrupti veritatis! Amet, laboriosam inventore aut reprehenderit labore cum? Beatae unde minima distinctio quas nihil aut ea ab doloremque perferendis iste. Consectetur fugit excepturi aliquid delectus blanditiis impedit labore ad, pariatur amet fugiat tempore possimus, quod, eius nam nesciunt quae? Officia, molestias dolor est unde veniam ipsum doloremque officiis voluptas laudantium earum esse eligendi obcaecati, illo recusandae nam eveniet excepturi.</p>
+        </div>
+        </div>
+        <div class="cards">
+            <h1>Available Products</h1>
+            <div class="fruits">
+                <img src="../../assests/banana.jpg" alt="" height="100px" width="50px">
+                <h2>Banana</h2>
+                <button>order now</button>
+            </div>
+            <div class="fruits">
+                <img src="../../assests/watermelon.jpg" alt="" height="50px" width="50px">
+                <h2>Watermelon</h2>
+                <button>order now</button>
+            </div>
+            <div class="fruits">
+                <img src="../../assests/orange.jpg" alt="" height="50px" width="50px">
+                <h2>orange</h2>
+                <button>order now</button>
+            </div>
+            <div   class="fruits">
+                <img src="../../assests/mango.jpg" alt="" height="50px" width="50px">
+                <h2>mango</h2>
+                <button>order now</button>
+            </div>
+
+        </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopsyy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <style>
+        body {
+            background-color: rgb(115, 206, 243);
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            background-color: skyblue;
+            height: 600px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            /* box-shadow: 0 10px 35px rgb(57, 53, 53); */
+            border-radius: 10px;
+
+
+        }
+
+        .child {
+        
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            background-color: rgb(244, 243, 243);
+            border-radius: 20px;
+            padding: 20px;
+
+
+
+        }
+
+        .child1 {
+            /* border: 1px solid black; */
+            height: 180px;
+            margin: 10px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #e6f0ff, #c2dbff);
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+        }
+        .child2{
+            height: 180px;
+            margin: 10px;
+            border-radius: 20px;
+             background: linear-gradient(135deg, #f3e8ff, #d6c2ff);
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+        }
+        .child3{
+            height: 180px;
+            margin: 10px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #e6fffb, #bdf5ec);
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+        }
+        .child1 img{
+            width: 150px;
+            height: 150px;
+            
+        }
+        .price{
+            color: rgb(47, 166, 47);
+        }
+        button{
+            background-color: rgb(59, 110, 229);
+            height: 40px;
+            width: 230px;
+            border-radius: 10px;
+
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Shopsy</h1>
+    <div class="container">
+        <div class="child">
+            <div class="child1">
+                <img src="../../assests/headphones.png" alt="">
+            </div>
+            <h2>Wireless Headphones</h2>
+            <h2 class="price">$99.99</h2>
+            <h5>(1,234 reviews)</h5>
+            <hr>
+            <button><a href=""><i class="fa-solid fa-cart-arrow-down"></i>Add to cart</a></button>
+        </div>
+        <div class="child">smart watch
+            <div class="child2"></div>
+        </div>
+        <div class="child">shoes
+            <div class="child3"></div>
+        </div>
+    </div>
+</body>
+
+</html>

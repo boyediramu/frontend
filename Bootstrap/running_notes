@@ -1,0 +1,50 @@
+Bootstrap:It is one of the top most css frame work 
+by using bootstrap we can make webpage responsive easily
+it has predefined code snippets
+it saves time
+by using bootstrap created first mobile website
+
+Bootstrap CDN link: CDN means content delivery network
+CDN LINK: CSS,JS
+Bootstrap developed twitter  developers 
+current version bootstrap  is  5
+
+box-model using bootstrap:
+border 
+border-danger 
+border-4 
+rounded-pill 
+pt-4 pb-4 ps-5 pe-5 
+mt-5
+
+color theory using bootstrap:
+danger-red
+primary-dorger blue
+secondary-grey
+success-green
+warning-orange/yellow
+info-light blue
+light-white
+dark-black
+
+container vs container-fluid:
+container will occupy 100% width  in small devices
+container-fluid will occupy 100% width in all devices
+
+tables classes:
+table
+table-striped 
+table-hover
+
+flex:
+d-flex
+flex-row
+flex-column
+flex-row-reverse
+justify-content-center
+
+grid:
+1row=12 columns
+
+responsive:
+breakpoints
